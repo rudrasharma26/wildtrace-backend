@@ -1,11 +1,12 @@
-fastapi>=0.110.0
-uvicorn[standard]>=0.28.0
-torch>=2.0.0
-transformers>=4.38.0
-opencv-python-headless>=4.8.0
-pillow>=10.0.0
-numpy>=1.24.0
-python-multipart>=0.0.9
-pydantic>=2.0.0
-requests>=2.31.0
-pyyaml>=6.0.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+torch==2.5.1+cpu
+transformers==4.44.2
+opencv-python-headless==4.10.0.84
+pillow==11.1.0
+numpy==1.26.4
+python-multipart==0.0.20
+pydantic>=2.8.0,<3.0.0
+requests>=2.31.0,<3.0.0
+pyyaml>=6.0.0,<7.0.0
